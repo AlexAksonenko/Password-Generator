@@ -4,7 +4,7 @@ const lowerList = "abcdefghijklmnñopqrstuvwxyz";
 const numbersList = "0123456789";
 const specialCharacters = "!@#$%^&*()";
 
-const generateButton = document.getElementById('generateBtn')
+const generateButton = document.getElementById('generate')
 generateButton.addEventListener('click', writePassword)
 
 // Write password to the #password input
